@@ -1,0 +1,275 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	/*color: #fff;*/
+	outline: none;
+}
+li {
+	list-style: none;
+}
+/*头部开始*/
+.header {
+	height: 900px;
+	position: relative;
+}
+.header img {
+	width: 100%;
+}
+.inner {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 40%;
+	margin: -150px auto 0;
+}
+.logo {
+	width: 341px;
+	margin: 0 auto 60px;
+}
+.logo .f1 {
+	width:341px;
+	height:124px;
+	text-indent: -9999px;
+	background-image: url(../img/logo.png);
+}
+/**********tab栏切换***********/
+.tab {
+	width: 585px;
+	margin: 0 auto;
+	position: relative;
+}
+.tab-hd li {
+	width: 194px;
+	height: 56px;	
+	float: left;
+	text-align: center;
+	line-height: 56px;
+	font-size: 18px;
+	/*letter-spacing: 4px;*/
+	background-color: rgba(17,17,17,0.5);
+	color: rgba(255,255,255,0.5);
+	border-right: 1px solid rgba(17,17,17,0.3);
+}
+.tab-hd a {
+	color: #fff;
+}
+.tab-hd li:hover{
+	background: #fff;
+	border-color: #fff;
+}
+.tab-hd li:hover a {
+	color: #444;
+}
+.tab-hd .current {
+	background: #fff;
+	border-color: #fff;
+}
+.tab-hd .current a {
+	color: #444;
+}
+.tab-bd {
+	width: 525px;
+	height: 200px;
+	position: absolute;
+	top:56px ;
+	left: 0;
+	background: #fff;
+	padding: 30px;
+	color: #888;
+}
+.cont-l {
+    position: relative;
+   /* zoom: 1;*/
+    z-index: 10;
+    float: left;
+	width: 306px;
+}
+.cont-r {
+    float: right;
+    width: 162px;
+}
+.sepln {
+    position: absolute;
+    left: 360px;
+    top: 30px;
+    display: block;
+    height: 190px;
+    width: 1px;
+    background: #e7e7e7;
+}
+.septxt {
+    position: absolute;
+    left: 360px;
+    top: 95px;
+    margin: 0 0 0 -6px;
+    display: block;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    color: #aaa;
+}
+/*身体==注册*/
+.wangyi {
+	display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin: 73px auto 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background: url(../img/btn.png) no-repeat -1px -461px;
+}
+.others a {
+	display: inline-block;
+	width: 107px;
+	height: 40px;
+	border-radius: 2px;
+	padding: 0 0 0 54px;
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	margin: 0 0 10px;
+}
+.tel a {
+	background: url(../img/telYi.png) -19px -90px;
+}
+.sina a {
+	background:url(../img/btn.png) -1px -601px;
+}
+.qq a {
+	background:url(../img/btn.png) -1px -651px;
+}
+.weixin a {
+	background:url(../img/btn.png) -213px -1191px;
+}
+/*身体==登录*/
+.cont-l input{
+	width: 266px;
+	height: 22px;
+	line-height: 22px;
+	color: #444;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 8px 16px;
+	border: 1px solid #d7d7d7;
+}
+.middle {
+	margin-top: 16px;
+}
+.tubiao {
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/tubiao.png) no-repeat 0px 0px !important;
+}
+.middle em {
+	font-size: 12px;
+	font-style: normal;
+}
+.loginbtn {
+	display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin: 12px auto 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background: url(../img/btn.png) no-repeat -1px -461px;
+}
+.bottom {
+	margin-top: 10px;
+}
+.unlogin {
+	cursor: pointer;
+}
+.unlogin input{
+	width: 14px;
+	height: 14px;
+	float: left;
+	cursor: pointer;
+}
+.unlogin lable {
+	color: #777;
+	display: block;
+	height: 16px;
+	padding-left: 8px;
+	font-size: 12px;
+	line-height: 16px;
+	float: left;
+}
+.forget {
+	float: right;
+	font-size: 12px;
+	margin-left: 20px;
+	position: relative;
+}
+.forget li {
+	float: left;
+	margin-left: 20px;
+}
+.forget span {
+	color: #777;
+	position: absolute;
+	top: 0;
+	right: 58px;
+}
+/*身体==下载*/
+.down {
+	margin:30px 30px 20px;
+	padding: 0 20px;
+}
+.down li {
+	width: 230px;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+}
+.down span {
+	font-size: 14px;
+	float: left;
+}
+.down a {
+	display: inline-block;
+	width: 136px;
+	height: 40px;
+	background: url(../img/btn.png);
+	float: right;
+}
+.down .idown {
+	margin-top: 12px;
+	background-position: -467px -587px;
+}
+.down .adown {
+	margin-top: 11px;
+	background-position: -467px -707px;
+}
+.cont-r img {
+	width: 164px;
+	height: 164px;
+	margin: 10px -18px;
+}
+/*************************************************/
+.bd{
+	display: none;
+}
+/*注册界面*/
+.register-bd {
+	display: none;
+}
+/*登录界面*/
+.login-bd {
+	display: block;
+}
+/*下载界面*/
+.download-bd {
+	display: none;
+}
